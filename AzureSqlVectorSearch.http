@@ -1,0 +1,7 @@
+@AzureSqlVectorSearch_HostAddress = https://localhost:7061
+@SearchQUery = Vectors with Azure SQL
+
+GET {{AzureSqlVectorSearch_HostAddress}}/search/?query={{SearchQUery}}
+Accept: application/json
+
+###
